@@ -6,7 +6,7 @@
       "groupName": "dependencies"
     },
     {
-      "extends": ["github>stefee/renovate-issue-repro-8579:node"],
+      "extends": ["github>CondeNast/renovate-config:node"],
       "groupName": "node"
     }
   ]
