@@ -1,3 +1,32 @@
 {
-  "extends": ["github>stefee/renovate-config"]
+  "extends": ["config:base"],
+  "dependencyDashboard": true,
+  "pinDigests": true,
+  "packageRules": [
+    {
+      "packagePatterns": ["*"],
+      "excludePackagePatterns": ["@condenast/*"],
+      "minor": {
+        "groupName": "dependencies"
+      }
+    },
+    {
+      "packageNames": ["node", "circleci/node", "cypress/browsers"],
+      "stabilityDays": 3,
+      "prCreation": "not-pending",
+      "groupName": "Node.js",
+      "patch": {
+        "groupName": "Node.js"
+      },
+      "minor": {
+        "groupName": "Node.js"
+      },
+      "major": {
+        "groupName": "Node.js major version"
+      },
+      "bump": {
+        "groupName": "Node.js"
+      }
+    }
+  ]
 }
