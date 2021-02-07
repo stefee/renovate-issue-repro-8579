@@ -1,8 +1,8 @@
 {
   "packageRules": [
     {
-      "extends": ["github>stefee/renovate-issue-repro-8579:node"],
-      "groupName": "node"
+      "packageNames": ["@babel/core"],
+      "groupName": "testgroupname"
     }
   ]
 }
