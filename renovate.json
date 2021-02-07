@@ -2,5 +2,6 @@
   "extends": [
     "config:base",
     "github>stefee/renovate-issue-repro-8579:groupNodeDeps"
-  ]
+  ],
+  "dependencyDashboard": true
 }
