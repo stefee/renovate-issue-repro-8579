@@ -1,7 +1,7 @@
 {
   "packageRules": [
     {
-      "extends": ["github>stefee/renovate-issue-repro-8579:reproPreset"],
+      "extends": ["github>stefee/renovate-issue-repro-8579:presetTwo"],
       "groupName": "testgroupname"
     }
   ]

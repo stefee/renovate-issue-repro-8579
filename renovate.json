@@ -1,7 +1,7 @@
 {
   "extends": [
     "config:base",
-    "github>stefee/renovate-issue-repro-8579:groupNodeDeps"
+    "github>stefee/renovate-issue-repro-8579:presetOne"
   ],
   "dependencyDashboard": true
 }
