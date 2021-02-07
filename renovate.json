@@ -1,13 +1,6 @@
 {
-  "extends": ["config:base"],
-  "packageRules": [
-    {
-      "packagePatterns": ["*"],
-      "groupName": "dependencies"
-    },
-    {
-      "extends": ["github>CondeNast/renovate-config:node"],
-      "groupName": "node"
-    }
+  "extends": [
+    "config:base",
+    "github>stefee/renovate-issue-repro-8579:groupNodeDeps"
   ]
 }
