@@ -23,9 +23,6 @@
       },
       "major": {
         "groupName": "Node.js major version"
-      },
-      "bump": {
-        "groupName": "Node.js"
       }
     }
   ]
