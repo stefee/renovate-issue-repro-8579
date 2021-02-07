@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "@babel/cli": "7.12.10",
-    "@babel/core": "7.12.10"
+    "@babel/core": "7.12.10",
+    "letter-press": "1.0.0"
   }
 }

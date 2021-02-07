@@ -1,7 +1,7 @@
 {
   "packageRules": [
     {
-      "packageNames": ["@babel/core"],
+      "extends": ["github>stefee/renovate-issue-repro-8579:reproPreset"],
       "groupName": "testgroupname"
     }
   ]
